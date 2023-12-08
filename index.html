@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mukbang Central</title>
+</head>
+
+<body>
+    <div class="background-image"></div>
+    
+    <header>
+        <h1>Mukbang Central</h1>
+        <div class="search-box">
+            <label for="searchInput">Search:</label>
+            <input type="text" placeholder="Search...">
+            <button onclick="search()">Search</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#asian">Asian Mukbangs</a></li>
+            <li><a href="#fastfood">Fast Food Mukbangs</a></li>
+            <li><a href="#desserts">Desserts Mukbangs</a></li>
+        </ul>
+    </nav>
+    
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Mukbang Central!</h2>
+            <p>Explore different types of Mukbangs and enjoy the foodie experience.</p>
+        </section>
+
+        <section id="asian">
+            <h2>Asian Mukbangs</h2>
+            <div class="video-container">
+                <!-- Add Asian Mukbang videos here -->
+            </div>
+            <div class="comment-box">
+                <label for="commentAsian">Leave a comment or review (Asian):</label>
+                <textarea placeholder="Leave a comment or review..."></textarea>
+                <button onclick="submitComment('asian')">Submit</button>
+            </div>
+        </section>
+
+        <section id="fastfood">
+            <h2>Fast Food Mukbangs</h2>
+            <div class="video-container">
+                <!-- Add Fast Food Mukbang videos here -->
+            </div>
+            <div class="comment-box">
+                <label for="commentAsian">Leave a comment or review (FastFood):</label>
+                <textarea placeholder="Leave a comment or review..."></textarea>
+                <button onclick="submitComment('fastfood')">Submit</button>
+            </div>
+        </section>
+
+        <section id="desserts">
+            <h2>Desserts Mukbangs</h2>
+            <div class="video-container">
+                <!-- Add Desserts Mukbang videos here -->
+            </div>
+            <div class="comment-box">
+                <label for="commentAsian">Leave a comment or review (Desserts):</label>
+                <textarea placeholder="Leave a comment or review..."></textarea>
+                <button onclick="submitComment('desserts')">Submit</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mukbang Central</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
