@@ -28,7 +28,7 @@ header {
 
 h1 {
     margin: 0;
-    color: #fff;
+    color: #000; /* Change to a darker color for better contrast */
 }
 
 .search-box {
@@ -55,7 +55,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #000; /* Change to a darker color for better contrast */
     padding: 0.5em 1em;
 }
 
