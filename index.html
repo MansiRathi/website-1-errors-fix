@@ -14,11 +14,11 @@
     <header>
         <h1>Mukbang Central</h1>
         <div class="search-box">
-        <form>
-            <label for="searchInput">Search:</label>
-            <input type="text" placeholder="Search...">
-            <button onclick="search()">Search</button>
-        </form>
+            <form>
+                <label for="searchInput">Search:</label>
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button onclick="search()">Search</button>
+            </form>
         </div>
     </header>
 
@@ -46,7 +46,7 @@
             <div class="comment-box">
             <form>
                 <label for="commentAsian">Leave a comment or review (Asian):</label>
-                <textarea placeholder="Leave a comment or review..."></textarea>
+                <textarea placeholder="Leave a comment or review..." id="commentAsian"></textarea>
                 <button onclick="submitComment('asian')">Submit</button>
             </form>
             </div>
@@ -59,8 +59,8 @@
             </div>
             <div class="comment-box">
             <form>
-                <label for="commentAsian">Leave a comment or review (FastFood):</label>
-                <textarea placeholder="Leave a comment or review..."></textarea>
+                <label for="commentfastfood">Leave a comment or review (FastFood):</label>
+                <textarea placeholder="Leave a comment or review..." id="commentfastfood"></textarea>
                 <button onclick="submitComment('fastfood')">Submit</button>
             </form>
             </div>
@@ -73,8 +73,8 @@
             </div>
             <div class="comment-box">
             <form>
-                <label for="commentAsian">Leave a comment or review (Desserts):</label>
-                <textarea placeholder="Leave a comment or review..."></textarea>
+                <label for="commentdesserts">Leave a comment or review (Desserts):</label>
+                <textarea placeholder="Leave a comment or review..." id="commentdesserts"></textarea>
                 <button onclick="submitComment('desserts')">Submit</button>
             </form>
             </div>
